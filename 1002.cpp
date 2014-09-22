@@ -27,7 +27,7 @@ int main()
 		}
 		for(int i=0;i<1001;i++)
 		{
-			if(fabs(A[i]+B[i])>10e-5)   //ERROR1:take care of fabs!
+			if(fabs(A[i]+B[i])>10e-5)   //ERROR1:take care of fabs!(20140927)
 				outNo++;
 		}
 		cout<<outNo;
